@@ -1,0 +1,31 @@
+Edman Alicea
+11/14/21
+CS 350 L02
+User manual document
+
+
+
+
+This program is a calculator application. It is a text file with .s file type. You run the program by using qtspim, a MIPS simulator. MIPS is an assembly language. When you run the program text will appear that will give you a variety of options. A numerical input will correspond with selecting that particular action. After you type a number press enter to submit it to the program. It asks the user for a specific numerical input from 0-8 to choose a desired action. An input of zero will exit the program only after the "Which operations would..." is displayed. Depending on your input the program will then perform the specified operations (eg: selecting addition will give you the option to input B and C to get A (A = B + C)). The types of numeral inputs and their calculations are as follows: 
+
+
+0 - Program Exit
+1 - Addition:  (A = B + C)
+2 - Subtraction: (A = B - C)
+3 - Multiplication: (A = B * C)
+4 - Division: (A = B / C)
+5 - Modulos: (A = B % C, returns the remainder of division eg: 5 % 3 = 2)
+6 - Factorial: (N! , eg: 5! = 5 * 4 * 3 * 2 * 1)
+7 - Sum (n, m) n < m: ( A = n+....+m , eg: Sum (3,5) = 3 + 4 + 5)
+8 - Fibonacci Sequence: (Fn = Fn-1 + Fn-2, F0 = 0, F1 = 1, eg: Fib(3) = 2)
+
+
+Image File:
+
+
+  
+
+
+
+After you select the type of calculation the program will then ask the user for the numerical values that you want to perform the operations on. The program only accepts up to two numerical inputs per calculation. It will at most accept only 1 depending on calculation. You input your data after you see the program print (First Operand: or Second Operand:)
+The program then prints the data in integer form. After the output it then loops to the initial state and is ready for calculation selection (or program exit) again. The program loops infinitely until a 0 is inputted in the program selection stage.
